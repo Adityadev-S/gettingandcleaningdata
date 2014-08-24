@@ -110,7 +110,7 @@ meanFreq: Weighted average of the frequency components to obtain a mean frequenc
 
 Finally, the average value for each signal was calculated for a specific person performing a specific Activity.
 These are the final values visible in the text file - Averages.txt.
-====================================================================================================================
+
 Notes:
 =====================
 The 't' in the naming of the column variables refers to - The time domain values
