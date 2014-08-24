@@ -18,5 +18,6 @@ Steps performed using the script - run_analysis.R:
 7. Use grep to subset the columns for mean and standard deviation using strings 'mean()','std()'.
 8. Read data from 'activity_labels.txt' and re-name the 'Activity' column data using descriptive names.
 9. Create descriptive variable names by removing '()' from the column names and replacing '-' with '_'.
+   * I have chosen not to rename the observations in order to make it easy to correlate with the original data set and documents.
 10. Find the average for the parameters based on the Person and activity using 'aggregate()' function and save it to a new data frame.
 11. Write the new data frame into a txt file with row.names = FALSE
